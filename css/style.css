@@ -276,7 +276,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  width: 42px;
+  width: 18px;
   height: 7px;
   margin: 5px 5px;
   background:  #1B1B1B;
@@ -292,7 +292,7 @@ a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span {
   background-color:#fff;
-  width: 44px;
+  width: 25px;
 }
 
 /*--/ Scrolltop s /--*/
@@ -1102,6 +1102,43 @@ footer .credits a {
   color: #fff;
 }
 
+/*======================================
+//--//-->   CONtaCT FORM
+======================================*/
+
+#sendmessage {
+  color: #211103;
+  border: 1px solid #211103;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sendmessage.show,
+#errormessage.show,
+.show {
+  display: block;
+}
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
 
 /*======================================
 //--//-->   BUTTON
